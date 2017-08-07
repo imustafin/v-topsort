@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-13-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-13-0 http://www.eiffel.com/developers/xml/configuration-1-13-0.xsd" name="v_topsort" uuid="A20AAE5F-51EF-487E-A1D2-3228FF3F1DD1">
+	<target name="v_topsort">
+		<root all_classes="true"/>
+		<option warning="false" full_class_checking="false" is_attached_by_default="false" void_safety="none" syntax="transitional">
+			<assertions precondition="true" postcondition="true" check="true" invariant="true" loop="true" supplier_precondition="true"/>
+		</option>
+		<setting name="console_application" value="true"/>
+		<library name="base-eve" location="$ISE_LIBRARY\library\base\base-eve.ecf" readonly="false"/>
+		<cluster name="v_topsort" location=".\" recursive="true">
+			<file_rule>
+				<exclude>/EIFGENs$</exclude>
+				<exclude>/CVS$</exclude>
+				<exclude>/.svn$</exclude>
+				<exclude>/.git$</exclude>
+			</file_rule>
+		</cluster>
+	</target>
+</system>
